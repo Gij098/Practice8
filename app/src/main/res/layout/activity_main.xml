@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="4"
+    android:rowCount="6"
+
+    >
+
+
+    <TextView
+        android:id = "@+id/textView1"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:text="OO"
+        android:textAlignment="textEnd"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/Button111"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/Button112"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:text="/" />
+
+    <Button
+
+        android:id="@+id/Button01"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="7" />
+
+    <Button
+
+        android:id="@+id/Button02"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="8" />
+
+    <Button
+
+        android:id="@+id/Button03"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="9" />
+
+    <Button
+
+        android:id="@+id/Button04"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <Button
+
+        android:id="@+id/Button05"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="4" />
+
+    <Button
+
+        android:id="@+id/Button06"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="5" />
+
+    <Button
+
+        android:id="@+id/Button07"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="6" />
+
+    <Button
+
+        android:id="@+id/Button08"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="*" />
+
+    <Button
+
+        android:id="@+id/Button09"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="1" />
+
+    <Button
+
+        android:id="@+id/Button10"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="2" />
+
+    <Button
+
+        android:id="@+id/Button11"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/Button12"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/Button13"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:text="=" />
+
+    <Button
+
+        android:id="@+id/Button14"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="0" />
+
+
+</GridLayout>
